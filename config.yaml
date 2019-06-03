@@ -1,0 +1,11 @@
+majiabao_asset: /Users/playcrab/data/work/src/dzm2/svn/majiabao
+
+#打包机列表
+worker: worker1.master.playcrab-inc.com
+worker_config_filePath: /data/work/walle/master_walle
+home_config_name: config.yaml
+ftp_config_name : test.yaml  
+#升级序列配置文件
+upgrade_config_name : upgradeConfig.yaml
+#打包参数配置文件
+package_config_name : createPackageConfig.yaml

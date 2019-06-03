@@ -1,0 +1,18 @@
+1: 
+	upgrade_path:  IOS_MINI_JHDMX
+	region:  china
+	platform:  ourpalm
+	deployment:  online
+	tag:  
+		asset: 75629
+		config: 75629
+		script: online.mini.190219.01
+		frontend: online.mini.shj.181114.01
+		backend: 19.2.1.190219.01
+		vms: encrypt.20171021.01
+		pctools: 1
+		kakura: master2processtime.20180409.01
+		abaddon: master.170317.01
+		configbanshu: 75629
+		global: online.190118.02
+		battle_config: 75629

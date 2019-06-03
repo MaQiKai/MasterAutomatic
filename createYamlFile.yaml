@@ -1,0 +1,53 @@
+default: 
+    parameter: 
+        - 
+            name: 'os_platform' 
+            value: 'ios' 
+        - 
+            name: 'is_pngquant'
+            value: 'true' 
+        - 
+            name: 'image_format' 
+            value: 'pvr' 
+        - 
+            name: 'is_encrypt' 
+            value: 'true' 
+        - 
+            name: 'open_etc' 
+            value: '1' 
+        - 
+            name: 'lua_compile' 
+            value: 'true' 
+        - 
+            name: 'update_subpackage_size' 
+            value: '100' 
+        - 
+            name: 'lua_compile_zip' 
+            value: 'true' 
+        - 
+            name: 'assets_pack' 
+            value: 'true' 
+        - 
+            name: 'mini_package_test' 
+            value: 'false' 
+        - 
+        - 
+upgrade_sequence: 
+    - 
+        upgrade_path:  
+            name: 'IOS_MINI_WXWQ'
+            description: 'ios马甲包-武侠问情'
+        parameter:  
+            - 
+                name: 'mini_package_channel'
+                value: 'wxwq'
+    
+    - 
+        upgrade_path:  
+            name: 'IOS_MINI_DWL'
+            description: 'ios马甲包-大武林'
+        parameter:  
+            - 
+                name: 'mini_package_channel'
+                value: 'dwl'
+    
